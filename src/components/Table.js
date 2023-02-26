@@ -5,37 +5,177 @@ import "ag-grid-community/styles//ag-grid.css";
 import "ag-grid-community/styles//ag-theme-alpine.css";
 
 const Table = () => {
+  const setAlwaysShowVerticalScroll = true;
+  const headerHeight = 50;
   const [rowData] = useState([
-    { pilot: "Conley", copilot: "Noyes", date: "05-13-1943", target: "Saint-Omer, France", aircraft: "42-29780", name: "Silver Queen" },
-    { pilot: "Conley", copilot: "Noyes", date: "05-14-1943", target: "Antwerp, Belgium", aircraft: "42-5795", name: "N/A" },
-    { pilot: "Conley", copilot: "Noyes", date: "06-11-1943", target: "Wilhelmshaven, Germany", aircraft: "42-3202", name: "Blondie" },
-    { pilot: "Noyes", copilot: "Bockman", date: "06-25-1943", target: "Bremen, Germany", aircraft: "42-30182", name: "Blondie II" },
-    { pilot: "Noyes", copilot: "Bockman", date: "06-29-1943", target: "Le Mans, France", aircraft: "42-30219", name: "N/A" },
-    { pilot: "Noyes", copilot: "Bockman", date: "07-04-1943", target: "La Pallice, France", aircraft: "42-30182", name: "Blondie II" },
-    { pilot: "Noyes", copilot: "Bockman", date: "07-14-1943", target: "Le Bourget, France", aircraft: "42-30182", name: "Blondie II" },
-    { pilot: "Noyes", copilot: "Prees", date: "07-24-1943", target: "Trondheim, Norway", aircraft: "42-30182", name: "Blondie II" },
-    { pilot: "Noyes", copilot: "Prees", date: "07-25-1943", target: "Kiel (Warnemunde), Germany", aircraft: "42-30182", name: "Blondie II" },
-    { pilot: "Noyes", copilot: "Prees", date: "07-28-1943", target: "Oschersleben, Germany", aircraft: "42-30182", name: "Blondie II" },
-    { pilot: "Noyes", copilot: "Prees", date: "08-12-1943", target: "Bonn, (Wesseling), Germany", aircraft: "42-30182", name: "Blondie II" },
-    { pilot: "Noyes", copilot: "Prees", date: "08-15-1943", target: "Merville-Lille Vendeville, France", aircraft: "42-30182", name: "Blondie II" },
-    { pilot: "Noyes", copilot: "Prees", date: "08-17-1943", target: "Regensburg, Germany", aircraft: "42-30182", name: "Blondie II" },
-    { pilot: "Noyes", copilot: "Prees", date: "08-31-1943", target: "Lille Meulan, France", aircraft: "42-30182", name: "Blondie II" },
-    { pilot: "Noyes", copilot: "Prees", date: "09-09-1943", target: "	Paris (Beaumont-sur-Oise), France", aircraft: "42-30634", name: "Liberty Belle" },
-    { pilot: "Noyes", copilot: "Prees", date: "09-15-1943", target: "Paris (Billancourt), France", aircraft: "42-3266", name: "Sittin Bull" },
+    {
+      pilot: "Conley, Harry M.",
+      copilot: "Noyes, Joseph H.",
+      date: "05-13-1943",
+      target: "Saint-Omer, France",
+      aircraft: "42-29780",
+      name: "Silver Queen",
+      callsign: "P",
+    },
+    {
+      pilot: "Conley, Harry M.",
+      copilot: "Noyes, Joseph H.",
+      date: "05-14-1943",
+      target: "Antwerp, Belgium",
+      aircraft: "42-5795",
+      name: "N/A",
+      callsign: "A",
+    },
+    {
+      pilot: "Conley, Harry M.",
+      copilot: "Noyes, Joseph H.",
+      date: "06-11-1943",
+      target: "Wilhelmshaven, Germany",
+      aircraft: "42-3202",
+      name: "Blondie",
+      callsign: "A",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Bockman, Elmer E.",
+      date: "06-25-1943",
+      target: "Bremen, Germany",
+      aircraft: "42-30182",
+      name: "Blondie II",
+      callsign: "E",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Bockman, Elmer E.",
+      date: "06-29-1943",
+      target: "Le Mans, France",
+      aircraft: "42-30219",
+      name: "N/A",
+      callsign: "J",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Bockman, Elmer E.",
+      date: "07-04-1943",
+      target: "La Pallice, France",
+      aircraft: "42-30182",
+      name: "Blondie II",
+      callsign: "E",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Bockman, Elmer E.",
+      date: "07-14-1943",
+      target: "Le Bourget, France",
+      aircraft: "42-30182",
+      name: "Blondie II",
+      callsign: "E",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Prees, David F.",
+      date: "07-24-1943",
+      target: "Trondheim, Norway",
+      aircraft: "42-30182",
+      name: "Blondie II",
+      callsign: "E",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Prees, David F.",
+      date: "07-25-1943",
+      target: "Kiel (Warnemunde), Germany",
+      aircraft: "42-30182",
+      name: "Blondie II",
+      callsign: "E",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Prees, David F.",
+      date: "07-28-1943",
+      target: "Oschersleben, Germany",
+      aircraft: "42-30182",
+      name: "Blondie II",
+      callsign: "E",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Prees, David F.",
+      date: "08-12-1943",
+      target: "Bonn, (Wesseling), Germany",
+      aircraft: "42-30182",
+      name: "Blondie II",
+      callsign: "E",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Prees, David F.",
+      date: "08-15-1943",
+      target: "Merville-Lille Vendeville, France",
+      aircraft: "42-30182",
+      name: "Blondie II",
+      callsign: "E",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Prees, David F.",
+      date: "08-17-1943",
+      target: "Regensburg, Germany",
+      aircraft: "42-30182",
+      name: "Blondie II",
+      callsign: "E",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Prees, David F.",
+      date: "08-31-1943",
+      target: "Lille Meulan, France",
+      aircraft: "42-30182",
+      name: "Blondie II",
+      callsign: "E",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Prees, David F.",
+      date: "09-09-1943",
+      target: "	Paris (Beaumont-sur-Oise), France",
+      aircraft: "42-30634",
+      name: "Liberty Belle",
+      callsign: "O",
+    },
+    {
+      pilot: "Noyes, Joseph H.",
+      copilot: "Prees, David F.",
+      date: "09-15-1943",
+      target: "Paris (Billancourt), France",
+      aircraft: "42-3266",
+      name: "Sittin Bull",
+      callsign: "T",
+      macr: "616",
+    },
   ]);
 
   const [columnDefs] = useState([
-    { field: "pilot" },
-    { field: "copilot" },
-    { field: "date" },
-    { field: "target" },
-    { field: "aircraft" },
-    { field: "name" },
+    { field: "pilot", headerTooltip: "Aircraft Commander" },
+    { field: "copilot", headerTooltip: "Co-Pilot" },
+    { field: "date", headerTooltip: "Month, Day, Year" },
+    { field: "target", headerTooltip: "Target" },
+    { field: "aircraft", headerTooltip: "B-17 Serial Number" },
+    { field: "name", headerTooltip: "Nose Art / Name" },
+    { field: "callsign", headerTooltip: "Callsign" },
+    { field: "macr", headerTooltip: "Missing Air Crew Report" }
   ]);
 
+  //TODO setRowData, dynamically set gridStyle, table needs to be centered with the page
+
   return (
-    <div className="ag-theme-alpine" style={{ height: 500, width: 1000 }}>
-      <AgGridReact rowData={rowData} columnDefs={columnDefs}></AgGridReact>
+    <div className="ag-theme-alpine" style={{ height: "1000px", width: "1500px" }}>
+      <AgGridReact
+        rowData={rowData}
+        columnDefs={columnDefs}
+        setAlwaysShowVerticalScroll={setAlwaysShowVerticalScroll}
+        headerHeight={headerHeight}
+      ></AgGridReact>
     </div>
   );
 };
