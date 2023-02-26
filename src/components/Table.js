@@ -186,7 +186,10 @@ const Table = () => {
   //TODO setRowData, dynamically set gridStyle, table needs to be centered with the page
 
   return (
-    <div className="ag-theme-alpine" style={{ height: "1000px", width: "1500px" }}>
+    <div
+      className="ag-theme-alpine"
+      style={{ height: "1000px", width: "1500px" }}
+    >
       <AgGridReact
         rowData={rowData}
         columnDefs={columnDefs}
