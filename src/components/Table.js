@@ -1,5 +1,5 @@
 import "./Table.css";
-import React, { useState } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles//ag-grid.css";
 import "ag-grid-community/styles//ag-theme-alpine.css";
@@ -16,6 +16,7 @@ const Table = () => {
       aircraft: "42-29780",
       name: "Silver Queen",
       callsign: "P",
+      squadron: "335",
     },
     {
       pilot: "Conley, Harry M.",
@@ -25,6 +26,7 @@ const Table = () => {
       aircraft: "42-5795",
       name: "N/A",
       callsign: "A",
+      squadron: "334",
     },
     {
       pilot: "Conley, Harry M.",
@@ -34,6 +36,7 @@ const Table = () => {
       aircraft: "42-3202",
       name: "Blondie",
       callsign: "A",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -43,6 +46,7 @@ const Table = () => {
       aircraft: "42-30182",
       name: "Blondie II",
       callsign: "E",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -52,6 +56,7 @@ const Table = () => {
       aircraft: "42-30219",
       name: "N/A",
       callsign: "J",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -61,6 +66,7 @@ const Table = () => {
       aircraft: "42-30182",
       name: "Blondie II",
       callsign: "E",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -70,6 +76,7 @@ const Table = () => {
       aircraft: "42-30182",
       name: "Blondie II",
       callsign: "E",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -79,6 +86,7 @@ const Table = () => {
       aircraft: "42-30182",
       name: "Blondie II",
       callsign: "E",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -88,6 +96,7 @@ const Table = () => {
       aircraft: "42-30182",
       name: "Blondie II",
       callsign: "E",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -97,6 +106,7 @@ const Table = () => {
       aircraft: "42-30182",
       name: "Blondie II",
       callsign: "E",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -106,6 +116,7 @@ const Table = () => {
       aircraft: "42-30182",
       name: "Blondie II",
       callsign: "E",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -115,6 +126,7 @@ const Table = () => {
       aircraft: "42-30182",
       name: "Blondie II",
       callsign: "E",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -124,6 +136,7 @@ const Table = () => {
       aircraft: "42-30182",
       name: "Blondie II",
       callsign: "E",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -133,6 +146,7 @@ const Table = () => {
       aircraft: "42-30182",
       name: "Blondie II",
       callsign: "E",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -142,6 +156,7 @@ const Table = () => {
       aircraft: "42-30634",
       name: "Liberty Belle",
       callsign: "O",
+      squadron: "334",
     },
     {
       pilot: "Noyes, Joseph H.",
@@ -152,6 +167,7 @@ const Table = () => {
       name: "Sittin Bull",
       callsign: "T",
       macr: "616",
+      squadron: "335",
     },
   ]);
 
@@ -163,7 +179,8 @@ const Table = () => {
     { field: "aircraft", headerTooltip: "B-17 Serial Number" },
     { field: "name", headerTooltip: "Nose Art / Name" },
     { field: "callsign", headerTooltip: "Callsign" },
-    { field: "macr", headerTooltip: "Missing Air Crew Report" }
+    { field: "squadron", headerTooltip: "Bomb Squadron" },
+    { field: "macr", headerTooltip: "Missing Air Crew Report" },
   ]);
 
   //TODO setRowData, dynamically set gridStyle, table needs to be centered with the page
