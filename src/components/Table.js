@@ -4,16 +4,16 @@ import React, {
   useRef,
   useEffect,
   useMemo,
+  useCallback,
 } from "react";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles//ag-grid.css";
-import "ag-grid-community/styles//ag-theme-material.css";
+import "ag-grid-community/styles//ag-theme-alpine.css";
 
 const Table = () => {
 
   const gridRef = useRef();
   const [rowData, setRowData] = useState();
-  const setAlwaysShowVerticalScroll = true;
   const headerHeight = 50; 
 
   const [columnDefs, setColumnDefs] = useState([
@@ -30,7 +30,12 @@ const Table = () => {
 
   const defaultColDef = useMemo(() => ({
     sortable: true,
+    flex: 1,
   }));
+
+  const onGridReady = useCallback((params) => {
+    params.api.sizeColumnsToFit();
+  }, []);
 
   useEffect(() => {
     fetch("https://apilotnamedjoe.com/data.json")
@@ -49,9 +54,9 @@ const Table = () => {
           rowData={rowData}
           columnDefs={columnDefs}
           defaultColDef={defaultColDef}
+          onGridReady={onGridReady}
           animateRows={true}
           rowSelection="multiple"
-          setAlwaysShowVerticalScroll={setAlwaysShowVerticalScroll}
           headerHeight={headerHeight}
         />
       </div>
