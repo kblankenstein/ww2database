@@ -1,9 +1,9 @@
-.App {
-  text-align: center;
+.App Button {
+  margin: 6px;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #222;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
@@ -15,4 +15,9 @@
 
 .App-link {
   color: #61dafb;
+}
+
+h4 {
+  color: #939393;
+  margin-top: auto;
 }

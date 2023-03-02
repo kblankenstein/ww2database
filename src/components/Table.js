@@ -23,9 +23,7 @@ const Table = () => {
     { field: "target", headerTooltip: "Target" },
     { field: "aircraft", headerTooltip: "B-17 Serial Number" },
     { field: "name", headerTooltip: "Nose Art / Name" },
-    { field: "callsign", headerTooltip: "Callsign" },
     { field: "squadron", headerTooltip: "Bomb Squadron" },
-    { field: "macr", headerTooltip: "Missing Air Crew Report" },
   ]);
 
   const defaultColDef = useMemo(() => ({
@@ -44,23 +42,22 @@ const Table = () => {
   }, []);
 
   return (
-    <div style={{ height: "500px", width: "1400px", display: "block", margin: "auto" }}>
-      <div
-        className="ag-theme-alpine"
-        style={{ height: "100%", width: "100%" }}
-      >
-        <AgGridReact
-          ref={gridRef}
-          rowData={rowData}
-          columnDefs={columnDefs}
-          defaultColDef={defaultColDef}
-          onGridReady={onGridReady}
-          animateRows={true}
-          rowSelection="multiple"
-          headerHeight={headerHeight}
-        />
-      </div>
-    </div>
+    <><div style={{ height: "400px", width: "1024px", display: "block", margin: "auto" }}>
+        <div
+          className="ag-theme-alpine"
+          style={{ height: "100%", width: "100%" }}
+        >
+          <AgGridReact
+            ref={gridRef}
+            rowData={rowData}
+            columnDefs={columnDefs}
+            defaultColDef={defaultColDef}
+            onGridReady={onGridReady}
+            animateRows={true}
+            rowSelection="multiple"
+            headerHeight={headerHeight} />
+        </div>
+      </div></>
   );
 };
 
