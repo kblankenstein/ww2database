@@ -45,7 +45,7 @@ const Table = () => {
     <>
       <div
         style={{
-          width: "1024px",
+          width: "auto",
           height: "430px",
           display: "block",
           margin: "auto",
@@ -55,7 +55,7 @@ const Table = () => {
           className="ag-theme-alpine"
           style={{ height: "100%", width: "100%" }}
         >
-          <AgGridReact
+          <AgGridReact 
             ref={gridRef}
             rowData={rowData}
             columnDefs={columnDefs}
@@ -63,8 +63,6 @@ const Table = () => {
             onGridReady={onGridReady}
             animateRows={true}
             headerHeight={headerHeight}
-            alwaysShowHorizontalScroll={true}
-            alwaysShowVerticalScroll={true}
           />
         </div>
       </div>

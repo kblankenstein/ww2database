@@ -124,7 +124,7 @@ const Main = () => {
         <Typography variant="body2">
           <b>
             Copyright &copy; {new Date().getFullYear()}, Kimberly A.
-            Blankenstein, All Rights Reserved
+            Blankenstein<br />All Rights Reserved
           </b>
         </Typography>
       </div>
