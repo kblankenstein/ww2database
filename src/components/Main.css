@@ -1,3 +1,7 @@
+.tabs {
+  justify-content: center;
+}
+
 .tabs a {
 color: #1976d2;
 }

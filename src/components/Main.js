@@ -35,9 +35,9 @@ const Main = () => {
               aria-label="Tabbed page navigation"
               centered
             >
-              <Tab label="Introduction" {...a11yProps(0)} />
+              <Tab label="Intro" {...a11yProps(0)} />
               <Tab label="The Crew" {...a11yProps(1)} />
-              <Tab label="Joe's Story" {...a11yProps(2)} />
+              <Tab label="Joe" {...a11yProps(2)} />
               <Tab label="Missions" {...a11yProps(3)} />
               <Tab label="Legacy" {...a11yProps(4)} />
             </Tabs>

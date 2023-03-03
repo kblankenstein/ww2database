@@ -19,18 +19,17 @@ const Intro = () => {
       >
         <div className="intro">
           <Typography variant="body1">
-            Welcome! My name is{" "}
-            <a
-              href="https://www.linkedin.com/in/kimberlyannblankenstein/"
-              target="_blank"
-            >
-              Kimberly Blankenstein
-            </a>
-            , and I work as a Senior Software Engineer for Lockheed Martin
-            Space, located in Colorado. For over twenty years, I have been
-            independently researching and sharing the life story of Flight
-            Officer Joseph H. Noyes, from Seattle — a Flying Fortress pilot who
-            served with the 95th Bomb Group (H) during the Second World War.
+            Welcome, and hello! My name is Kimberly Blankenstein, and I'm a
+            Senior Software Engineer at Lockheed Martin Space, located in
+            Colorado. I know you just got here, but I want to thank you very
+            much for visiting my website!
+          </Typography>
+          <br />
+          <Typography variant="body1">
+            For a little over twenty years now, I have been independently
+            researching and sharing the life story of Flight Officer Joseph H.
+            Noyes, from Seattle — a Flying Fortress pilot who served with the
+            95th Bomb Group (H) during the Second World War.
           </Typography>
           <br />
           <Typography variant="body1">
@@ -63,16 +62,16 @@ const Intro = () => {
             I am most grateful to the following individuals and organizations
             who have kindly supported my research over the last twenty+ years:
             <br /> <br />
-            Robert E. Noyes, Sara Baty Noyes, Matt Noyes, Tom J. Noyes, Elizabeth
-            Noyes Trunkey, John Noyes, Lori Noyes Norton, Tami Noyes Wiegand, Donna
-            Davis Flynn, W.L. Bergman, The 95th Bomb Group (H) Memorials
-            Foundation, Col. Harry G. Conley, USAF (Ret.), Col. H. Griffin
-            Mumford, USAF (Ret.), Lt. Col. Robert C. Cozens, USAF (Ret.), Flight
-            Officer Paul E. Perceful, USAF, Gerald Grove, Bob Rosenzweig, Brad
-            Petrella, Rob Morris, Mary Pirtle (David F. Prees), Marguerite M. Rice
-            (Rex A. Rice), The Marines' Memorial Association, Col. Daniel Cummins,
-            USAF (Ret.), Michael Darter, Dennis Sparks, Richard E. Flagg, and Bill
-            Murchison.
+            Robert E. Noyes, Sara Baty Noyes, Matt Noyes, Tom J. Noyes,
+            Elizabeth Noyes Trunkey, John Noyes, Lori Noyes Norton, Tami Noyes
+            Wiegand, Donna Davis Flynn, W.L. Bergman, The 95th Bomb Group (H)
+            Memorials Foundation, Col. Harry G. Conley, USAF (Ret.), Col. H.
+            Griffin Mumford, USAF (Ret.), Lt. Col. Robert C. Cozens, USAF
+            (Ret.), Flight Officer Paul E. Perceful, USAF, Gerald Grove, Bob
+            Rosenzweig, Brad Petrella, Rob Morris, Mary Pirtle (David F. Prees),
+            Marguerite M. Rice (Rex A. Rice), The Marines' Memorial Association,
+            Col. Daniel Cummins, USAF (Ret.), Michael Darter, Dennis Sparks,
+            Richard E. Flagg, and Bill Murchison.
           </Typography>
         </div>
       </Box>

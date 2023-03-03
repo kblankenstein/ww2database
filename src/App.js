@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>The Joe Noyes Crew</h1>
-        <h4>May we never forget these ten USAAF airmen.</h4>
+        <h4>May we never forget these ten airmen.</h4>
       </header>
     </div>
   );
