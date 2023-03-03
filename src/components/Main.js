@@ -27,7 +27,7 @@ const Main = () => {
   return (
     <>
       <div className="tabs">
-        <Box sx={{ width: "100%" }}>
+        <Box sx={{ width: "100%", flexWrap: "wrap" }}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs
               value={value}
