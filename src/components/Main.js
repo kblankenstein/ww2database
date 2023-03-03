@@ -60,6 +60,7 @@ const Main = () => {
           color="inherit"
           href="https://paypal.me/kblankenstein"
           target="_blank"
+          rel="noreferrer"
           disableElevation
           startIcon={<AttachMoneyIcon />}
         >
@@ -79,6 +80,7 @@ const Main = () => {
           color="inherit"
           href="https://www.facebook.com/littlejoenoyes"
           target={"_blank"}
+          rel="noreferrer"
           disableElevation
           startIcon={<Facebook />}
         >

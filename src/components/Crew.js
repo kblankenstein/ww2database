@@ -326,23 +326,23 @@ const Crew = () => {
           Military Division.
           <br />
           <br />
-          <a href="http://www.303rdbg.com/crew-duties.html" target="_blank">
+          <a href="http://www.303rdbg.com/crew-duties.html" target="_blank" rel="noreferrer">
             "Duties and Responsibilities of the B-17 Crewmen"
           </a>
           <br />
-          <a href="https://95thbgdb.com/" target="_blank">
+          <a href="https://95thbgdb.com/" target="_blank" rel="noreferrer">
             The 95th Bomb Group (H) Searchable Database
           </a>
           <br />
-          <a href="https://www.8thafhs.org/" target="_blank">
+          <a href="https://www.8thafhs.org/" target="_blank" rel="noreferrer">
             The 8th Air Force Historical Society
           </a>
           <br />
-          <a href="https://b17flyingfortress.de/" target="_blank">
+          <a href="https://b17flyingfortress.de/" target="_blank" rel="noreferrer">
             The B-17 Bomber Flying Fortress Database
           </a>
           <br />
-          <a href="https://www.americanairmuseum.com/" target="_blank">
+          <a href="https://www.americanairmuseum.com/" target="_blank" rel="noreferrer">
             The American Air Museum in Britain
           </a>
         </Typography>
