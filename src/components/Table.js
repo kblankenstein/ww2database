@@ -45,6 +45,7 @@ const Table = () => {
     <>
       <div
         style={{
+          width: "1024px",
           height: "430px",
           display: "block",
           margin: "auto",
@@ -62,6 +63,8 @@ const Table = () => {
             onGridReady={onGridReady}
             animateRows={true}
             headerHeight={headerHeight}
+            alwaysShowHorizontalScroll={true}
+            alwaysShowVerticalScroll={true}
           />
         </div>
       </div>
