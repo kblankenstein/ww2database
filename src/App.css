@@ -26,12 +26,11 @@ h4 {
 }
 
 .resources {
+  padding-top: 20px;
   margin-top: 20px;
-  margin-bottom: 20px;
   text-align: center;
   color: #222;
   border-top: 1px dotted #222;
-  padding-top: 20px;
 }
 
 .resources a {
