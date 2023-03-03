@@ -45,7 +45,7 @@ const Crew = () => {
                     <Button>Pilot</Button>
                   </Tooltip>
                 </Typography>
-                <Typography variant="h5" component="div">
+                <Typography variant="h6" component="div">
                   Joseph H. Noyes
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -73,7 +73,7 @@ const Crew = () => {
                     <Button>Co-Pilot</Button>
                   </Tooltip>
                 </Typography>
-                <Typography variant="h5" component="div">
+                <Typography variant="h6" component="div">
                   David F. Prees
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -101,7 +101,7 @@ const Crew = () => {
                     <Button>Navigator</Button>
                   </Tooltip>
                 </Typography>
-                <Typography variant="h5" component="div">
+                <Typography variant="h6" component="div">
                   Frank A. Roth
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -129,7 +129,7 @@ const Crew = () => {
                     <Button>Bombardier</Button>
                   </Tooltip>
                 </Typography>
-                <Typography variant="h5" component="div">
+                <Typography variant="h6" component="div">
                   Rex A. Rice
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -154,10 +154,10 @@ const Crew = () => {
                     title="The B-17 engineer served the crew in a highly technical way, meaning he probably knew more about the B-17 than any other crewmember on board. The engineer was the chief source of information concerning the airport and equipment."
                     arrow
                   >
-                    <Button>Top Turret & Engineer</Button>
+                    <Button>Engineer</Button>
                   </Tooltip>
                 </Typography>
-                <Typography variant="h5" component="div">
+                <Typography variant="h6" component="div">
                   William E. Clapper
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -185,7 +185,7 @@ const Crew = () => {
                     <Button>Radio Operator</Button>
                   </Tooltip>
                 </Typography>
-                <Typography variant="h5" component="div">
+                <Typography variant="h6" component="div">
                   Edgar A. Lajoie
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -213,7 +213,7 @@ const Crew = () => {
                     <Button>Waist Gunner</Button>
                   </Tooltip>
                 </Typography>
-                <Typography variant="h5" component="div">
+                <Typography variant="h6" component="div">
                   William L. Cochran
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -241,7 +241,7 @@ const Crew = () => {
                     <Button>Ball Turret Gunner</Button>
                   </Tooltip>
                 </Typography>
-                <Typography variant="h5" component="div">
+                <Typography variant="h6" component="div">
                   Robert H. Willis
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -269,7 +269,7 @@ const Crew = () => {
                     <Button>Tail Gunner</Button>
                   </Tooltip>
                 </Typography>
-                <Typography variant="h5" component="div">
+                <Typography variant="h6" component="div">
                   Raymond L. Provost
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
@@ -297,7 +297,7 @@ const Crew = () => {
                     <Button>Waist Gunner</Button>
                   </Tooltip>
                 </Typography>
-                <Typography variant="h5" component="div">
+                <Typography variant="h6" component="div">
                   Daniel J. Fabritz
                 </Typography>
                 <Typography sx={{ mb: 1.5 }} color="text.secondary">
