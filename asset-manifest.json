@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ww2database/static/css/main.b19f76ed.css",
-    "main.js": "/ww2database/static/js/main.ab0024a3.js",
+    "main.css": "/ww2database/static/css/main.95fef686.css",
+    "main.js": "/ww2database/static/js/main.feea5515.js",
     "static/js/787.00bb40a7.chunk.js": "/ww2database/static/js/787.00bb40a7.chunk.js",
     "static/media/textured-paper.png": "/ww2database/static/media/textured-paper.69a4ab98d7e94ef2c246.png",
     "static/media/clouds.jpg": "/ww2database/static/media/clouds.c3ba364f78aa11cd7e84.jpg",
@@ -38,12 +38,12 @@
     "static/media/roboto-greek-ext-300-normal.woff2": "/ww2database/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/ww2database/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/ww2database/index.html",
-    "main.b19f76ed.css.map": "/ww2database/static/css/main.b19f76ed.css.map",
-    "main.ab0024a3.js.map": "/ww2database/static/js/main.ab0024a3.js.map",
+    "main.95fef686.css.map": "/ww2database/static/css/main.95fef686.css.map",
+    "main.feea5515.js.map": "/ww2database/static/js/main.feea5515.js.map",
     "787.00bb40a7.chunk.js.map": "/ww2database/static/js/787.00bb40a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b19f76ed.css",
-    "static/js/main.ab0024a3.js"
+    "static/css/main.95fef686.css",
+    "static/js/main.feea5515.js"
   ]
 }
