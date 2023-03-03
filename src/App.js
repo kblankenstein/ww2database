@@ -35,7 +35,7 @@ function App() {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Home
             </Typography>
-            <Button variant="outlined" color="inherit" href="" disableElevation startIcon={<AttachMoneyIcon />}>Donate</Button>
+            <Button variant="outlined" color="inherit" href="https://paypal.me/kblankenstein" target="_blank" disableElevation startIcon={<AttachMoneyIcon />}>Donate</Button>
             <Button variant="outlined" color="inherit" href="mailto:kimberly.blankenstein@gmail.com" disableElevation startIcon={<EmailIcon />}>Contact</Button>
           </Toolbar>
         </AppBar>
