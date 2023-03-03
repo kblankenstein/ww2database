@@ -1,3 +1,7 @@
+body {
+  background-image: url("clouds.jpg");
+}
+
 .App Button {
   margin: 6px;
 }
@@ -25,11 +29,11 @@ h4 {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  color: #939393;
-  border-top: 1px dotted #ed6c02;
+  color: #222;
+  border-top: 1px dotted #222;
   padding-top: 20px;
 }
 
 .resources a {
-  color: #ed6c02;
+  color: #1976d2;
 }

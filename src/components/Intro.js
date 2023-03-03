@@ -8,7 +8,7 @@ import "ag-grid-community/styles//ag-theme-alpine.css";
 const Intro = () => {
   return (
     <>
-      <Box sx={{ width: "100%", maxWidth: 700 }}>
+      <Box sx={{ width: "100%", maxWidth: 700, display: "flex", alignContent: "center", margin: "0 auto"}}>
         <div className="intro">
         <Typography variant="body1">
           Welcome! My name is Kimberly Blankenstein, and I work as a Senior

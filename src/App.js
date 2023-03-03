@@ -18,10 +18,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>The Joe Noyes Crew</h1>
-        <h4>Ten notable B-17 airmen who were lost in 1943.</h4>
+        <h4>Ten notable USAAF airmen who were lost in 1943.</h4>
       </header>
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" color="warning">
+        <AppBar position="static" color="primary">
           <Toolbar>
             <IconButton
               size="large"

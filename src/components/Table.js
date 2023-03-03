@@ -62,7 +62,6 @@ const Table = () => {
             defaultColDef={defaultColDef}
             onGridReady={onGridReady}
             animateRows={true}
-            rowSelection="multiple"
             headerHeight={headerHeight}
           />
         </div>

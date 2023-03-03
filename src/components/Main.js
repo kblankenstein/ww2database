@@ -33,8 +33,7 @@ const Main = () => {
               <Tab label="The Crew" {...a11yProps(1)} />
               <Tab label="Joe's Story" {...a11yProps(2)} />
               <Tab label="The Missions" {...a11yProps(3)} />
-              <Tab label="The Bomb Group" {...a11yProps(4)} />
-              <Tab label="The Legacy" {...a11yProps(5)} />
+              <Tab label="The Legacy" {...a11yProps(4)} />
             </Tabs>
           </Box>
           <TabPanel value={value} index={0}>
@@ -51,9 +50,6 @@ const Main = () => {
           </TabPanel>
           <TabPanel value={value} index={4}>
             Item Four
-          </TabPanel>
-          <TabPanel value={value} index={5}>
-            Item Five
           </TabPanel>
         </Box>
       </div>
