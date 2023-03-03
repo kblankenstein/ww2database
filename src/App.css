@@ -1,5 +1,8 @@
 body {
   background-image: url("clouds.jpg");
+  background-repeat: repeat-y;
+  background-position: right top;
+  background-size: cover;
 }
 
 .App Button {
