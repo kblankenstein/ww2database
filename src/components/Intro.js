@@ -19,10 +19,10 @@ const Intro = () => {
       >
         <div className="intro">
           <Typography variant="body1">
-            Welcome, and hello! My name is Kimberly Blankenstein, and I'm a
-            Senior Software Engineer at Lockheed Martin Space, located in
-            Colorado. I know you just got here, but I want to thank you very
-            much for visiting my website!
+            Welcome! My name is Kimberly Blankenstein, and I'm a Senior Software
+            Engineer at Lockheed Martin Space, located in Colorado. I know you
+            just got here, but I want to thank you very much for visiting my
+            website!
           </Typography>
           <br />
           <Typography variant="body1">
@@ -42,11 +42,12 @@ const Intro = () => {
           </Typography>
           <br />
           <Typography variant="body1">
-            In answer to a question I get asked frequently, I am not related to
-            anyone who served on The Joe Noyes Crew or a veteran of the 95th
-            Bomb Group (H). I am a volunteer and advocate for the crew and their
-            families, and I am grateful for the support of these parties over
-            the last 20 years.
+            Please know that I am not related to anyone who served on The Joe
+            Noyes Crew or a veteran of the 95th Bomb Group (H). I am simply a
+            volunteer and advocate for this crew and their families. I spend my
+            own money to host this website and continue with my research
+            project. If you would like to help buy me a coffee or a beer, I do
+            accept donations through the PayPal link at the bottom of this page.
           </Typography>
           <br />
           <Typography variant="body1">
