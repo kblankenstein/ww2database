@@ -27,22 +27,19 @@ const Main = () => {
   return (
     <>
       <div className="tabs">
-        <Box sx={{ maxWidth: "1024px", alignContent: "center", display: "block" }}>
+        <Box sx={{ width: "100%" }}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs
               value={value}
               onChange={handleChange}
               aria-label="Tabbed page navigation"
-              variant="scrollable"
-              scrollButtons
-              allowScrollButtonsMobile
               centered
             >
               <Tab label="Introduction" {...a11yProps(0)} />
               <Tab label="The Crew" {...a11yProps(1)} />
               <Tab label="Joe's Story" {...a11yProps(2)} />
-              <Tab label="The Missions" {...a11yProps(3)} />
-              <Tab label="The Legacy" {...a11yProps(4)} />
+              <Tab label="Missions" {...a11yProps(3)} />
+              <Tab label="Legacy" {...a11yProps(4)} />
             </Tabs>
           </Box>
           <TabPanel value={value} index={0}>
