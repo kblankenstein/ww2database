@@ -1,7 +1,7 @@
 {
   "name": "ww2database",
   "version": "0.1.0",
-  "homepage": "https://kblankenstein.github.io/ww2database",
+  "homepage": "https://kblankenstein.github.io/ww2database/public/index.html",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
