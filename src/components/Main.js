@@ -33,6 +33,7 @@ const Main = () => {
               value={value}
               onChange={handleChange}
               aria-label="basic tabs example"
+              centered
             >
               <Tab label="Introduction" {...a11yProps(0)} />
               <Tab label="The Crew" {...a11yProps(1)} />
