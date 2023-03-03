@@ -45,8 +45,7 @@ const Table = () => {
     <>
       <div
         style={{
-          height: "400px",
-          width: "1024px",
+          height: "430px",
           display: "block",
           margin: "auto",
         }}
