@@ -55,7 +55,7 @@ const Table = () => {
           className="ag-theme-alpine"
           style={{ height: "100%", width: "100%" }}
         >
-          <AgGridReact 
+          <AgGridReact
             ref={gridRef}
             rowData={rowData}
             columnDefs={columnDefs}
@@ -72,11 +72,15 @@ const Table = () => {
           Resources:
           <br />
           <br />
-          Hawkins, I. (2005). B-17s over Berlin: personal stories from the 95th
-          Bomb Group (H). Washington: Potomac Books, Inc.
+          Hawkins, I. (2005). <br />
+          B-17s over Berlin: personal stories from the 95th Bomb Group (H).
           <br />
-          Conley, H. M. (2002). No foxholes in the sky. Trumball, CT.: FNP
-          Military Division.
+          Washington: Potomac Books, Inc.
+          <br /><br />
+          Conley, H. M. (2002). <br />
+          No foxholes in the sky.
+          <br />
+          Trumball, CT.: FNP Military Division.
           <br />
           <br />
           <a href="http://www.303rdbg.com/crew-duties.html" target="_blank">
