@@ -21,8 +21,7 @@ const Intro = () => {
           <Typography variant="body1">
             Welcome! My name is Kimberly Blankenstein, and I'm a Senior Software
             Engineer at Lockheed Martin Space, located in Colorado. I know you
-            just got here, but I want to thank you very much for visiting my
-            website! Military history is near and dear to my heart.
+            just got here, but I want to thank you for visiting my website!
           </Typography>
           <br />
           <Typography variant="body1">
