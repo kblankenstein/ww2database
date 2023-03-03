@@ -6,15 +6,15 @@ import React, {
   useMemo,
   useCallback,
 } from "react";
+import Typography from "@mui/material/Typography";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles//ag-grid.css";
 import "ag-grid-community/styles//ag-theme-alpine.css";
 
 const Table = () => {
-
   const gridRef = useRef();
   const [rowData, setRowData] = useState();
-  const headerHeight = 50; 
+  const headerHeight = 50;
 
   const [columnDefs, setColumnDefs] = useState([
     { field: "pilot", headerTooltip: "Aircraft Commander" },
@@ -42,7 +42,15 @@ const Table = () => {
   }, []);
 
   return (
-    <><div style={{ height: "400px", width: "1024px", display: "block", margin: "auto" }}>
+    <>
+      <div
+        style={{
+          height: "400px",
+          width: "1024px",
+          display: "block",
+          margin: "auto",
+        }}
+      >
         <div
           className="ag-theme-alpine"
           style={{ height: "100%", width: "100%" }}
@@ -55,9 +63,20 @@ const Table = () => {
             onGridReady={onGridReady}
             animateRows={true}
             rowSelection="multiple"
-            headerHeight={headerHeight} />
+            headerHeight={headerHeight}
+          />
         </div>
-      </div></>
+      </div>
+      <div class="resources">
+        <Typography variant="body2">
+          These resources were utilized in the development of this content:
+          <br />
+          <a href="https://95thbgdb.com/" target="_blank">
+            The 95th Bomb Group (H) Searchable Database
+          </a>
+        </Typography>
+      </div>
+    </>
   );
 };
 

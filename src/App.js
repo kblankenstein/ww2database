@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>The Joe Noyes Crew</h1>
-        <h4>Joe Noyes was a B-17 pilot with the 95th Bomb Group (H)</h4>
+        <h4>Ten notable B-17 airmen who were lost in 1943.</h4>
       </header>
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static" color="warning">

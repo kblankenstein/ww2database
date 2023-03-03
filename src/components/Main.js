@@ -30,8 +30,8 @@ const Main = () => {
               aria-label="basic tabs example"
             >
               <Tab label="Introduction" {...a11yProps(0)} />
-              <Tab label="Joe's Story" {...a11yProps(1)} />
-              <Tab label="The Crew" {...a11yProps(2)} />
+              <Tab label="The Crew" {...a11yProps(1)} />
+              <Tab label="Joe's Story" {...a11yProps(2)} />
               <Tab label="The Missions" {...a11yProps(3)} />
               <Tab label="The Bomb Group" {...a11yProps(4)} />
               <Tab label="The Legacy" {...a11yProps(5)} />
@@ -41,10 +41,10 @@ const Main = () => {
             <Intro />
           </TabPanel>
           <TabPanel value={value} index={1}>
-            <Joe />
+          <Crew />
           </TabPanel>
           <TabPanel value={value} index={2}>
-            <Crew />
+            <Joe />
           </TabPanel>
           <TabPanel value={value} index={3}>
             <Table />

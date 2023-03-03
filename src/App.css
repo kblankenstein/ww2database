@@ -20,3 +20,16 @@ h4 {
   color: #939393;
   margin-top: auto;
 }
+
+.resources {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #939393;
+  border-top: 1px dotted #ed6c02;
+  padding-top: 20px;
+}
+
+.resources a {
+  color: #ed6c02;
+}
