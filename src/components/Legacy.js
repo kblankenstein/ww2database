@@ -17,10 +17,8 @@ const Legacy = () => {
           margin: "0 auto",
         }}
       >
-        <div className="legacy">
-          <Typography variant="body1">
-            Legacy content goes here.
-          </Typography>
+        <div className="references">
+          <Typography variant="body1">Legacy goes here</Typography>
         </div>
       </Box>
     </>
