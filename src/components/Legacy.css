@@ -1,4 +1,4 @@
-.Intro {
+.Legacy {
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -10,6 +10,6 @@ a {
   color: #199bd2;
 }
 
-.intro {
+.legacy {
   padding: 20px;
 }

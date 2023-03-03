@@ -13,15 +13,15 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #d32f2f;
+  color: #fff;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #1976d2;
 }
 
 h4 {
-  color: #939393;
+  color: #efb57b;
   margin-top: auto;
 }
 
@@ -34,5 +34,9 @@ h4 {
 }
 
 .resources a {
+  color: #1976d2;
+}
+
+.resources :visited {
   color: #1976d2;
 }

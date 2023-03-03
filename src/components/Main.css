@@ -5,8 +5,8 @@
   justify-content: center;
 }
 
-#Main {
-  margin-bottom: 20px;
+#welcome a {
+color: #1976d2;
 }
 
 .contact {
@@ -20,4 +20,5 @@
 .contact a {
   margin: 6px;
   margin-bottom: 40px;
+  color: #d25019;
 }

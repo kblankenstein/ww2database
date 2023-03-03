@@ -32,7 +32,7 @@ const Crew = () => {
           >
             <Grid xs={6}>
               <Item className="paper">
-                <MilitaryTechIcon color="error" fontSize="large" />
+                <MilitaryTechIcon color="#222" fontSize="large" />
                 <Typography
                   sx={{ fontSize: 14 }}
                   color="text.secondary"
@@ -60,7 +60,7 @@ const Crew = () => {
             </Grid>
             <Grid xs={6}>
               <Item className="paper">
-                <MilitaryTechIcon color="error" fontSize="large" />
+                <MilitaryTechIcon color="#222" fontSize="large" />
                 <Typography
                   sx={{ fontSize: 14 }}
                   color="text.secondary"
@@ -88,7 +88,7 @@ const Crew = () => {
             </Grid>
             <Grid xs={6}>
               <Item className="paper">
-                <MilitaryTechIcon color="error" fontSize="large" />
+                <MilitaryTechIcon color="#222" fontSize="large" />
                 <Typography
                   sx={{ fontSize: 14 }}
                   color="text.secondary"
@@ -116,7 +116,7 @@ const Crew = () => {
             </Grid>
             <Grid xs={6}>
               <Item className="paper">
-                <MilitaryTechIcon color="error" fontSize="large" />
+                <MilitaryTechIcon color="#222" fontSize="large" />
                 <Typography
                   sx={{ fontSize: 14 }}
                   color="text.secondary"
@@ -144,7 +144,7 @@ const Crew = () => {
             </Grid>
             <Grid xs={6}>
               <Item className="paper">
-                <MilitaryTechIcon color="error" fontSize="large" />
+                <MilitaryTechIcon color="#222" fontSize="large" />
                 <Typography
                   sx={{ fontSize: 14 }}
                   color="text.secondary"
@@ -172,7 +172,7 @@ const Crew = () => {
             </Grid>
             <Grid xs={6}>
               <Item className="paper">
-                <MilitaryTechIcon color="error" fontSize="large" />
+                <MilitaryTechIcon color="#222" fontSize="large" />
                 <Typography
                   sx={{ fontSize: 14 }}
                   color="text.secondary"
@@ -200,7 +200,7 @@ const Crew = () => {
             </Grid>
             <Grid xs={6}>
               <Item className="paper">
-                <MilitaryTechIcon color="error" fontSize="large" />
+                <MilitaryTechIcon color="#222" fontSize="large" />
                 <Typography
                   sx={{ fontSize: 14 }}
                   color="text.secondary"
@@ -228,7 +228,7 @@ const Crew = () => {
             </Grid>
             <Grid xs={6}>
               <Item className="paper">
-                <MilitaryTechIcon color="error" fontSize="large" />
+                <MilitaryTechIcon color="#222" fontSize="large" />
                 <Typography
                   sx={{ fontSize: 14 }}
                   color="text.secondary"
@@ -256,7 +256,7 @@ const Crew = () => {
             </Grid>
             <Grid xs={6}>
               <Item className="paper">
-                <MilitaryTechIcon color="error" fontSize="large" />
+                <MilitaryTechIcon color="#222" fontSize="large" />
                 <Typography
                   sx={{ fontSize: 14 }}
                   color="text.secondary"
@@ -284,7 +284,7 @@ const Crew = () => {
             </Grid>
             <Grid xs={6}>
               <Item className="paper">
-                <MilitaryTechIcon color="error" fontSize="large" />
+                <MilitaryTechIcon color="#222" fontSize="large" />
                 <Typography
                   sx={{ fontSize: 14 }}
                   color="text.secondary"

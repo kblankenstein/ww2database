@@ -9,6 +9,7 @@ import Intro from "./Intro";
 import Joe from "./Joe";
 import Table from "./Table";
 import Crew from "./Crew";
+import Legacy from "./Legacy";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import EmailIcon from "@mui/icons-material/Email";
 import Facebook from "@mui/icons-material/Facebook";
@@ -53,7 +54,7 @@ const Main = () => {
             <Table />
           </TabPanel>
           <TabPanel value={value} index={4}>
-            Item Four
+            <Legacy />
           </TabPanel>
         </Box>
       </div>
