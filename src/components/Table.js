@@ -68,7 +68,7 @@ const Table = () => {
 
       <div className="resources">
         <Typography variant="body2">
-          References:
+          Resources:
           <br />
           <br />
           Hawkins, I. (2005). B-17s over Berlin: personal stories from the 95th
