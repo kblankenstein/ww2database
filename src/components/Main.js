@@ -27,12 +27,15 @@ const Main = () => {
   return (
     <>
       <div className="tabs">
-        <Box sx={{ width: "100%" }}>
+        <Box sx={{ maxWidth: "1024px", alignContent: "center", display: "block" }}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs
               value={value}
               onChange={handleChange}
-              aria-label="basic tabs example"
+              aria-label="Tabbed page navigation"
+              variant="scrollable"
+              scrollButtons
+              allowScrollButtonsMobile
               centered
             >
               <Tab label="Introduction" {...a11yProps(0)} />
