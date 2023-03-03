@@ -26,7 +26,7 @@ const Main = () => {
 
   return (
     <>
-      <div id="welcome">
+      <div className="tabs">
         <Box sx={{ width: "100%" }}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <Tabs
@@ -59,7 +59,6 @@ const Main = () => {
           </TabPanel>
         </Box>
       </div>
-
       <div className="contact">
         <Button
           variant="outlined"
@@ -91,7 +90,6 @@ const Main = () => {
           Facebook
         </Button>
       </div>
-
       <div className="resources">
         <Typography variant="body2">
           References:
@@ -125,7 +123,6 @@ const Main = () => {
           </a>
         </Typography>
       </div>
-
       <div className="copyright">
         <Typography variant="body2">
           <b>

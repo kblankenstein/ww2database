@@ -1,11 +1,4 @@
-.Main {
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#welcome a {
+.tabs a {
 color: #1976d2;
 }
 
@@ -26,13 +19,11 @@ color: #1976d2;
 
 .resources {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
   margin-top: 20px;
-  margin-bottom: 60px;
   text-align: center;
   color: #222;
   border-top: 1px dotted #222;
-  border-bottom: 1px dotted #222;
 }
 
 .resources a {
@@ -46,6 +37,7 @@ color: #1976d2;
 .copyright {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
-  padding: 10px;
+  background-color: #fff;
+  padding: 5px;
+  height: 200px;
 }
