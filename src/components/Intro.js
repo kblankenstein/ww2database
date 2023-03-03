@@ -11,7 +11,7 @@ const Intro = () => {
       <Box
         sx={{
           width: "100%",
-          maxWidth: 700,
+          maxWidth: 1024,
           display: "flex",
           alignContent: "center",
           margin: "0 auto",
