@@ -1,1 +1,2 @@
-A React project by Kimberly Blankenstein
+A personal React project by Kimberly Blankenstein
+
