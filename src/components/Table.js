@@ -65,15 +65,6 @@ const Table = () => {
           />
         </div>
       </div>
-      <div class="resources">
-        <Typography variant="body2">
-          These resources were utilized in the development of this content:
-          <br />
-          <a href="https://95thbgdb.com/" target="_blank">
-            The 95th Bomb Group (H) Searchable Database
-          </a>
-        </Typography>
-      </div>
     </>
   );
 };

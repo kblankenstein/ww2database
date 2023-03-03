@@ -24,19 +24,3 @@ h4 {
   color: #efb57b;
   margin-top: auto;
 }
-
-.resources {
-  padding-top: 20px;
-  margin-top: 20px;
-  text-align: center;
-  color: #222;
-  border-top: 1px dotted #222;
-}
-
-.resources a {
-  color: #1976d2;
-}
-
-.resources :visited {
-  color: #1976d2;
-}

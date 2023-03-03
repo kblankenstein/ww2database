@@ -313,19 +313,6 @@ const Crew = () => {
           </Grid>
         </Box>
       </div>
-      <div class="resources">
-        <Typography variant="body2">
-          These resources were utilized in the development of this content:
-          <br />
-          <a href="http://www.303rdbg.com/crew-duties.html" target="_blank">
-            Duties and Responsibilities of the B-17 Crewmen
-          </a>
-          <br />
-          <a href="https://95thbgdb.com/" target="_blank">
-            The 95th Bomb Group (H) Searchable Database
-          </a>
-        </Typography>
-      </div>
     </>
   );
 };
