@@ -22,7 +22,7 @@ const Intro = () => {
             Welcome! My name is Kimberly Blankenstein, and I'm a Senior Software
             Engineer at Lockheed Martin Space, located in Colorado. I know you
             just got here, but I want to thank you very much for visiting my
-            website!
+            website! Military history is near and dear to my heart.
           </Typography>
           <br />
           <Typography variant="body1">
@@ -61,7 +61,8 @@ const Intro = () => {
           <br />
           <Typography variant="body1">
             I am most grateful to the following individuals and organizations
-            who have kindly supported my research over the last twenty+ years:
+            who have kindly encouraged and supported my research over the last
+            twenty+ years:
             <br /> <br />
             Robert E. Noyes, Sara Baty Noyes, Matt Noyes, Tom J. Noyes,
             Elizabeth Noyes Trunkey, John Noyes, Lori Noyes Norton, Tami Noyes
