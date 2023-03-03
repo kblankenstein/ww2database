@@ -9,7 +9,6 @@ import Intro from "./Intro";
 import Joe from "./Joe";
 import Table from "./Table";
 import Crew from "./Crew";
-import Legacy from "./Legacy";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import EmailIcon from "@mui/icons-material/Email";
 import Facebook from "@mui/icons-material/Facebook";
@@ -39,7 +38,6 @@ const Main = () => {
               <Tab label="The Crew" {...a11yProps(1)} />
               <Tab label="Joe" {...a11yProps(2)} />
               <Tab label="Missions" {...a11yProps(3)} />
-              <Tab label="Legacy" {...a11yProps(4)} />
             </Tabs>
           </Box>
           <TabPanel value={value} index={0}>
@@ -53,9 +51,6 @@ const Main = () => {
           </TabPanel>
           <TabPanel value={value} index={3}>
             <Table />
-          </TabPanel>
-          <TabPanel value={value} index={4}>
-            <Legacy />
           </TabPanel>
         </Box>
       </div>
