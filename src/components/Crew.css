@@ -3,3 +3,13 @@
   text-align: center;
   display: flex;
 }
+
+.crew {
+  padding: 20px;
+}
+
+.paper {
+  background-image: url("../textured-paper.png" );
+  background-repeat: repeat-y;
+  background-position: right top;
+}

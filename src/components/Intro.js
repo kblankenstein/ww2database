@@ -25,9 +25,9 @@ const Intro = () => {
               target="_blank"
             >
               Kimberly Blankenstein
-            </a>,
-            and I work as a Senior Software Engineer for Lockheed Martin Space,
-            located in Colorado. For over twenty years, I have been
+            </a>
+            , and I work as a Senior Software Engineer for Lockheed Martin
+            Space, located in Colorado. For over twenty years, I have been
             independently researching and sharing the life story of Flight
             Officer Joseph H. Noyes, from Seattle — a Flying Fortress pilot who
             served with the 95th Bomb Group (H) during the Second World War.

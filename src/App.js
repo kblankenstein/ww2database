@@ -20,26 +20,6 @@ function App() {
         <h1>The Joe Noyes Crew</h1>
         <h4>Ten notable USAAF airmen who were lost in 1943.</h4>
       </header>
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static" color="primary">
-          <Toolbar>
-            <IconButton
-              size="large"
-              edge="start"
-              color="inherit"
-              aria-label="menu"
-              sx={{ mr: 2 }}
-            >
-              <Home />
-            </IconButton>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Home
-            </Typography>
-            <Button variant="outlined" color="inherit" href="https://paypal.me/kblankenstein" target="_blank" disableElevation startIcon={<AttachMoneyIcon />}>Donate</Button>
-            <Button variant="outlined" color="inherit" href="mailto:kimberly.blankenstein@gmail.com" disableElevation startIcon={<EmailIcon />}>Contact</Button>
-          </Toolbar>
-        </AppBar>
-      </Box>
     </div>
   );
 }

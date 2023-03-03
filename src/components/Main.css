@@ -8,3 +8,14 @@
 #Main {
   margin-bottom: 20px;
 }
+
+.contact {
+  display: flex;
+  justify-content: center;
+  border-top: 1px dotted #222;
+}
+
+.contact a {
+  margin: 6px;
+  margin-bottom: 40px;
+}

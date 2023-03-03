@@ -9,3 +9,7 @@ a {
   font-weight: bolder;
   color: #1976d2;
 }
+
+.intro {
+  padding: 20px;
+}
