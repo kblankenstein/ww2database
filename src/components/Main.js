@@ -122,10 +122,9 @@ const Main = () => {
       </div>
       <div className="copyright">
         <Typography variant="body2">
-          <b>
-            Copyright &copy; {new Date().getFullYear()}, Kimberly A.
-            Blankenstein<br />All Rights Reserved
-          </b>
+          Copyright &copy; {new Date().getFullYear()}, Kimberly A. Blankenstein
+          <br />
+          All Rights Reserved
         </Typography>
       </div>
     </>

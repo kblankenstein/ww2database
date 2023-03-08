@@ -6,7 +6,6 @@ import React, {
   useMemo,
   useCallback,
 } from "react";
-import Typography from "@mui/material/Typography";
 import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles//ag-grid.css";
 import "ag-grid-community/styles//ag-theme-alpine.css";
@@ -65,44 +64,6 @@ const Table = () => {
             headerHeight={headerHeight}
           />
         </div>
-      </div>
-
-      <div className="resources">
-        <Typography variant="body2">
-          Resources:
-          <br />
-          <br />
-          Hawkins, I. (2005). <br />
-          B-17s over Berlin: personal stories from the 95th Bomb Group (H).
-          <br />
-          Washington: Potomac Books, Inc.
-          <br /><br />
-          Conley, H. M. (2002). <br />
-          No foxholes in the sky.
-          <br />
-          Trumball, CT.: FNP Military Division.
-          <br />
-          <br />
-          <a href="http://www.303rdbg.com/crew-duties.html" target="_blank">
-            "Duties and Responsibilities of the B-17 Crewmen"
-          </a>
-          <br />
-          <a href="https://95thbgdb.com/" target="_blank">
-            The 95th Bomb Group (H) Searchable Database
-          </a>
-          <br />
-          <a href="https://www.8thafhs.org/" target="_blank">
-            The 8th Air Force Historical Society
-          </a>
-          <br />
-          <a href="https://b17flyingfortress.de/" target="_blank">
-            The B-17 Bomber Flying Fortress Database
-          </a>
-          <br />
-          <a href="https://www.americanairmuseum.com/" target="_blank">
-            The American Air Museum in Britain
-          </a>
-        </Typography>
       </div>
     </>
   );

@@ -57,23 +57,6 @@ const Intro = () => {
             stories with interested parties worldwide. May we never forget them
             and their enduring sacrifice.
           </Typography>
-          <br />
-          <Typography variant="body1">
-            I am most grateful to the following individuals and organizations
-            who have kindly encouraged and supported my research over the last
-            twenty+ years:
-            <br /> <br />
-            Robert E. Noyes, Sara Baty Noyes, Matt Noyes, Tom J. Noyes,
-            Elizabeth Noyes Trunkey, John Noyes, Lori Noyes Norton, Tami Noyes
-            Wiegand, Donna Davis Flynn, W.L. Bergman, The 95th Bomb Group (H)
-            Memorials Foundation, Col. Harry G. Conley, USAF (Ret.), Col. H.
-            Griffin Mumford, USAF (Ret.), Lt. Col. Robert C. Cozens, USAF
-            (Ret.), Flight Officer Paul E. Perceful, USAF, Gerald Grove, Bob
-            Rosenzweig, Brad Petrella, Rob Morris, Mary Pirtle (David F. Prees),
-            Marguerite M. Rice (Rex A. Rice), The Marines' Memorial Association,
-            Col. Daniel Cummins, USAF (Ret.), Michael Darter, Dennis Sparks,
-            Richard E. Flagg, and Bill Murchison.
-          </Typography>
         </div>
       </Box>
     </>
