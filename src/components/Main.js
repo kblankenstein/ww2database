@@ -120,13 +120,6 @@ const Main = () => {
           Facebook
         </Button>
       </div>
-      <div className="copyright">
-        <Typography variant="body2">
-          Copyright &copy; {new Date().getFullYear()}, Kimberly A. Blankenstein
-          <br />
-          All Rights Reserved
-        </Typography>
-      </div>
     </>
   );
 };
