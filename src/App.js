@@ -12,7 +12,7 @@ function App() {
         <h1>The Joe Noyes Crew</h1>
         <h4>May we never forget these ten airmen.</h4>
       </header>
-      <MapContainer center={[52.3113295, 1.2122331]} zoom={17} scrollWheelZoom={false}>
+      <MapContainer center={[52.3113295, 1.2122331]} zoom={16} scrollWheelZoom={false}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
