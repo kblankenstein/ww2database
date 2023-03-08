@@ -3,7 +3,7 @@ import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, LayerGroup, Circle } from "react-leaflet";
 
 function App() {
   return (
@@ -22,6 +22,13 @@ function App() {
             The 95th Bomb Group (H) was <br /> based at Horham, England.
           </Popup>
         </Marker>
+        <LayerGroup>
+            <Circle
+              center={[52.3113295, 1.2122331]}
+              pathOptions={{ color: 'green', fillColor: 'green' }}
+              radius={200}
+            />
+          </LayerGroup>
       </MapContainer>
     </div>
   );
