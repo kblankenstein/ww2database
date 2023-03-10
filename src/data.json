@@ -8,7 +8,8 @@
     "aircraft": "42-29780",
     "name": "Silver Queen",
     "callsign": "P",
-    "squadron": "335"
+    "squadron": "335",
+    "coordinates": "50.75, 2.25"
   },
   {
     "date": "05-14-1943",
@@ -18,7 +19,8 @@
     "aircraft": "42-5795",
     "name": "N/A",
     "callsign": "A",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": "51.21989, 4.40346"
   },
   {
     "date": "06-11-1943",
@@ -28,7 +30,8 @@
     "aircraft": "42-3202",
     "name": "Blondie",
     "callsign": "A",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": "53.52998, 8.11253"
   },
   {
     "date": "06-25-1943",
