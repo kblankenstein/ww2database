@@ -11,16 +11,16 @@ import "ag-grid-community/styles//ag-theme-alpine.css";
 
 const Table = () => {
   const gridRef = useRef();
-  const [rowData, setRowData] = useState();
-  const headerHeight = 50;
   const containerStyle = useMemo(() => ({ width: "100%", height: "100%" }), []);
   const gridStyle = useMemo(() => ({ height: "100%", width: "100%" }), []);
+  const [rowData, setRowData] = useState();
+  const headerHeight = 50;
 
   const [columnDefs, setColumnDefs] = useState([
-    { field: "pilot", headerTooltip: "Aircraft Commander" },
+    { field: "pilot", headerTooltip: "Aircraft Commander", width: 150 },
     { field: "copilot", headerTooltip: "Co-Pilot" },
     { field: "date", headerTooltip: "Month, Day, Year" },
-    { field: "target", headerTooltip: "Target" },
+    { field: "target", headerTooltip: "Target", width: 150 },
     { field: "aircraft", headerTooltip: "B-17 Serial Number" },
     { field: "name", headerTooltip: "Nose Art / Name" },
     { field: "squadron", headerTooltip: "Bomb Squadron" },
@@ -55,7 +55,7 @@ const Table = () => {
             animateRows={true}
             headerHeight={headerHeight}
             onFirstDataRendered={onFirstDataRendered}
-            domLayout={'autoHeight'}
+            domLayout='autoHeight'
           />
         </div>
       </div>
