@@ -17,11 +17,11 @@ const Table = () => {
   const headerHeight = 50;
 
   const [columnDefs, setColumnDefs] = useState([
+    { field: "date", headerTooltip: "Month, Day, Year", width: 200, minWidth: 200, maxWidth: 220 },
+    { field: "target", headerTooltip: "Target", width: 200, minWidth: 200, maxWidth: 220 },
     { field: "pilot", headerTooltip: "Aircraft Commander", width: 200, minWidth: 200, maxWidth: 220 },
     { field: "copilot", headerTooltip: "Co-Pilot", width: 200, minWidth: 200, maxWidth: 220  },
     { field: "crew", headerTooltip: "Crew List", width: 200, minWidth: 200, maxWidth: 220 },
-    { field: "date", headerTooltip: "Month, Day, Year", width: 200, minWidth: 200, maxWidth: 220 },
-    { field: "target", headerTooltip: "Target", width: 200, minWidth: 200, maxWidth: 220 },
     { field: "aircraft", headerTooltip: "B-17 Serial Number", width: 200, minWidth: 200, maxWidth: 220 },
     { field: "name", headerTooltip: "Nose Art / Name", width: 200, minWidth: 200, maxWidth: 220 },
     { field: "squadron", headerTooltip: "Bomb Squadron", width: 200, minWidth: 200, maxWidth: 220 },
