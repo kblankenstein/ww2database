@@ -17,7 +17,7 @@ const Table = () => {
   const headerHeight = 50;
 
   const [columnDefs, setColumnDefs] = useState([
-    { field: "pilot", headerTooltip: "Aircraft Commander", width: 150 },
+    { field: "pilot", headerTooltip: "Aircraft Commander", width: 150, minWidth: 100, maxWidth: 200 },
     { field: "copilot", headerTooltip: "Co-Pilot" },
     { field: "date", headerTooltip: "Month, Day, Year" },
     { field: "target", headerTooltip: "Target", width: 150 },
