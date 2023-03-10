@@ -14,6 +14,8 @@ const Table = () => {
   const gridRef = useRef();
   const [rowData, setRowData] = useState();
   const headerHeight = 50;
+  const containerStyle = useMemo(() => ({ width: "100%", height: "100%" }), []);
+  const gridStyle = useMemo(() => ({ height: "100%", width: "100%" }), []);
 
   const [columnDefs, setColumnDefs] = useState([
     { field: "pilot", headerTooltip: "Aircraft Commander" },
@@ -42,18 +44,8 @@ const Table = () => {
 
   return (
     <>
-      <div
-        style={{
-          width: "auto",
-          height: "430px",
-          display: "block",
-          margin: "auto",
-        }}
-      >
-        <div
-          className="ag-theme-alpine"
-          style={{ height: "100%", width: "100%" }}
-        >
+      <div style={containerStyle}>
+        <div className="ag-theme-alpine" style={{ gridStyle }}>
           <AgGridReact
             ref={gridRef}
             rowData={rowData}
@@ -62,6 +54,7 @@ const Table = () => {
             onGridReady={onGridReady}
             animateRows={true}
             headerHeight={headerHeight}
+            domLayout="autoHeight"
           />
         </div>
       </div>

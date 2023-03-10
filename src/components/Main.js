@@ -67,7 +67,6 @@ const Main = () => {
               aria-label="Tabbed page navigation"
               centered
             >
-
               <Tab label="Mission List" {...a11yProps(0)} />
             </Tabs>
           </Box>
