@@ -24,7 +24,7 @@ const Table = () => {
     { field: "aircraft", headerTooltip: "B-17 Serial Number", width: 200, minWidth: 200, maxWidth: 220 },
     { field: "name", headerTooltip: "Nose Art / Name", width: 200, minWidth: 200, maxWidth: 220 },
     { field: "squadron", headerTooltip: "Bomb Squadron", width: 200, minWidth: 200, maxWidth: 220 },
-    { field: "coordinates", headerTooltip: "Map Coordinates", width: 200, minWidth: 200, maxWidth: 220 },
+    { field: "coordinates", headerTooltip: "Coordinates", width: 200, minWidth: 200, maxWidth: 220 },
   ]);
 
   const defaultColDef = useMemo(() => ({

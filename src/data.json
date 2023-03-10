@@ -41,7 +41,8 @@
     "aircraft": "42-30182",
     "name": "Blondie II",
     "callsign": "E",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "06-29-1943",
@@ -51,7 +52,8 @@
     "aircraft": "42-30219",
     "name": "N/A",
     "callsign": "J",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "07-04-1943",
@@ -61,7 +63,8 @@
     "aircraft": "42-30182",
     "name": "Blondie II",
     "callsign": "E",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "07-14-1943",
@@ -71,7 +74,8 @@
     "aircraft": "42-30182",
     "name": "Blondie II",
     "callsign": "E",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "07-24-1943",
@@ -81,7 +85,8 @@
     "aircraft": "42-30182",
     "name": "Blondie II",
     "callsign": "E",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "07-25-1943",
@@ -91,7 +96,8 @@
     "aircraft": "42-30182",
     "name": "Blondie II",
     "callsign": "E",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "07-28-1943",
@@ -101,7 +107,8 @@
     "aircraft": "42-30182",
     "name": "Blondie II",
     "callsign": "E",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "08-12-1943",
@@ -111,7 +118,8 @@
     "aircraft": "42-30182",
     "name": "Blondie II",
     "callsign": "E",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "08-15-1943",
@@ -121,7 +129,8 @@
     "aircraft": "42-30182",
     "name": "Blondie II",
     "callsign": "E",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "08-17-1943",
@@ -131,7 +140,8 @@
     "aircraft": "42-30182",
     "name": "Blondie II",
     "callsign": "E",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "08-31-1943",
@@ -141,7 +151,8 @@
     "aircraft": "42-30182",
     "name": "Blondie II",
     "callsign": "E",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "09-09-1943",
@@ -151,7 +162,8 @@
     "aircraft": "42-30634",
     "name": "Liberty Belle",
     "callsign": "O",
-    "squadron": "334"
+    "squadron": "334",
+    "coordinates": " "
   },
   {
     "date": "09-15-1943",
@@ -162,6 +174,7 @@
     "name": "Sittin Bull",
     "callsign": "T",
     "macr": "616",
-    "squadron": "335"
+    "squadron": "335",
+    "coordinates": " "
   }
 ]
