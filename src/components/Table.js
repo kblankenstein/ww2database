@@ -2,7 +2,6 @@ import "./Table.css";
 import React, {
   useState,
   useRef,
-  useEffect,
   useMemo,
   useCallback,
 } from "react";
@@ -28,24 +27,25 @@ const Table = () => {
   ]);
 
   const defaultColDef = useMemo(() => ({
+    resizable: true,
     sortable: true,
     flex: 1,
   }));
 
   const onGridReady = useCallback((params) => {
-    params.api.sizeColumnsToFit();
-  }, []);
-
-  useEffect(() => {
     fetch("https://apilotnamedjoe.com/data.json")
       .then((result) => result.json())
       .then((rowData) => setRowData(rowData));
   }, []);
 
+  const onFirstDataRendered = useCallback((params) => {
+    gridRef.current.api.sizeColumnsToFit();
+  }, []);
+
   return (
     <>
       <div style={containerStyle}>
-        <div className="ag-theme-alpine" style={{ gridStyle }}>
+        <div className="ag-theme-alpine" style={gridStyle}>
           <AgGridReact
             ref={gridRef}
             rowData={rowData}
@@ -54,7 +54,8 @@ const Table = () => {
             onGridReady={onGridReady}
             animateRows={true}
             headerHeight={headerHeight}
-            domLayout="autoHeight"
+            onFirstDataRendered={onFirstDataRendered}
+            domLayout={'autoHeight'}
           />
         </div>
       </div>
