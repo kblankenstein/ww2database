@@ -17,17 +17,16 @@ const Table = () => {
   const headerHeight = 50;
 
   const [columnDefs, setColumnDefs] = useState([
-    { field: "pilot", headerTooltip: "Aircraft Commander", width: 150, minWidth: 100, maxWidth: 200 },
-    { field: "copilot", headerTooltip: "Co-Pilot" },
+    { field: "pilot", headerTooltip: "Aircraft Commander", width: 200, minWidth: 200, maxWidth: 220 },
+    { field: "copilot", headerTooltip: "Co-Pilot", width: 200, minWidth: 200, maxWidth: 220  },
     { field: "date", headerTooltip: "Month, Day, Year" },
-    { field: "target", headerTooltip: "Target", width: 150 },
+    { field: "target", headerTooltip: "Target" },
     { field: "aircraft", headerTooltip: "B-17 Serial Number" },
     { field: "name", headerTooltip: "Nose Art / Name" },
     { field: "squadron", headerTooltip: "Bomb Squadron" },
   ]);
 
   const defaultColDef = useMemo(() => ({
-    resizable: true,
     sortable: true,
     flex: 1,
   }));
