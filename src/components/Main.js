@@ -67,22 +67,11 @@ const Main = () => {
               aria-label="Tabbed page navigation"
               centered
             >
-              <Tab label="Intro" {...a11yProps(0)} />
-              <Tab label="The Crew" {...a11yProps(1)} />
-              <Tab label="Joe" {...a11yProps(2)} />
-              <Tab label="Missions" {...a11yProps(3)} />
+
+              <Tab label="Mission List" {...a11yProps(0)} />
             </Tabs>
           </Box>
           <TabPanel value={value} index={0}>
-            <Intro />
-          </TabPanel>
-          <TabPanel value={value} index={1}>
-            <Crew />
-          </TabPanel>
-          <TabPanel value={value} index={2}>
-            <Joe />
-          </TabPanel>
-          <TabPanel value={value} index={3}>
             <Table />
           </TabPanel>
         </Box>
