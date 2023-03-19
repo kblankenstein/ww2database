@@ -27,3 +27,13 @@ h4 {
   color: #efb57b;
   margin-top: auto;
 }
+
+.ag-center-cols-clipper {
+  min-height: unset !important;
+}
+
+.targetName {
+  font-weight: bold;
+  margin-bottom: 10px;
+  height: 10px;
+}
