@@ -17,12 +17,12 @@ import React, { useState, useRef, useMemo, useCallback } from "react";
 import { AgGridReact } from "ag-grid-react";
 
 function App() {
+  const [mapCoords, setMapCoords] = useState();
   const gridRef = useRef();
   const containerStyle = useMemo(() => ({ width: "100%", height: "100%" }), []);
   const gridStyle = useMemo(() => ({ height: "100%", width: "100%" }), []);
   const [rowData, setRowData] = useState();
   const headerHeight = 50;
-
   const [columnDefs, setColumnDefs] = useState([
     {
       field: "date",
@@ -97,14 +97,13 @@ function App() {
     gridRef.current.api.sizeColumnsToFit();
   }, []);
 
-  const onSelectionChanged = useCallback(() => {
-    const targetName = gridRef.current.api.getSelectedRows();
-    document.querySelector("#targetName").innerHTML =
-      targetName.length === 1 ? targetName[0].target : "";
+  const getCoordinates = useCallback(() => {
+    const coords = gridRef.current.api.getSelectedRows();
+    let selectedCoords = coords.length === 1 ? coords[0].coordinates : "";
+    if (coords) {
+      console.log(selectedCoords);
+    }
   }, []);
-
-  const mapCoords = null;
-  //add logic to change marker position based on table row selection
 
   return (
     <>
@@ -138,9 +137,6 @@ function App() {
       </div>
       <div style={containerStyle}>
         <div className="ag-theme-alpine" style={gridStyle}>
-          <div className="targetName">
-            <span id="targetName"></span>
-          </div>
           <AgGridReact
             ref={gridRef}
             rowData={rowData}
@@ -152,7 +148,7 @@ function App() {
             onFirstDataRendered={onFirstDataRendered}
             domLayout="autoHeight"
             rowSelection={"single"}
-            onSelectionChanged={onSelectionChanged}
+            onSelectionChanged={getCoordinates}
           />
         </div>
       </div>
