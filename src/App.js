@@ -106,7 +106,6 @@ function App() {
       coordinates: newLatLong,
     });
   }, []);
-  console.log(latlong);
 
   return (
     <>
