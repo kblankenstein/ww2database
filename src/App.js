@@ -17,7 +17,6 @@ import React, { useState, useRef, useMemo, useCallback } from "react";
 import { AgGridReact } from "ag-grid-react";
 
 function App() {
-
   const [latlong, setCoordinates] = useState({ coordinates: "52.3113295, 1.2122331" });
   const gridRef = useRef();
   const containerStyle = useMemo(() => ({ width: "100%", height: "100%" }), []);
@@ -106,6 +105,7 @@ function App() {
       coordinates: newLatLong,
     });
   }, []);
+  console.log(latlong);
 
   return (
     <>
